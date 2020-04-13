@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/uppernavbar.css" />
     <link rel="stylesheet" href="./styles/intro.css" />
-    <link rel="stylesheet" href="./styles/purplebar.css" />
   </head>
 
   <body>
@@ -43,19 +42,53 @@
     </div>
 
     <div class="intro">
-      <!-- <img src="./images/image-intro-desktop.jpg" alt="Intro" /> -->
-      <picture>
+      <img
+        class="intro-pattern-left"
+        src="./images/bg-pattern-intro-left-desktop.svg"
+        alt="IntroIMGLeft"
+      />
+
+      <img
+        class="intro-pattern-right"
+        src="./images/bg-pattern-intro-right-desktop.svg"
+        alt="IntroIMGRight"
+      />
+
+      <picture class="main-pic">
         <source
-          media="(max-width: 550px)"
+          media="(max-width: 600px)"
           srcset="./images/image-intro-mobile.jpg"
         />
         <source
-          media="(min-width: 551px)"
+          media="(min-width: 601px)"
           srcset="./images/image-intro-desktop.jpg"
         />
         <img class="introimage" src="images/img-default.png" alt="IntroIMG" />
       </picture>
+
       <div class="introcontent">
+        <img
+          class="intro-pattern-left-mobile"
+          src="./images/bg-pattern-intro-left-mobile.svg"
+          alt="IntroIMGLeft"
+        />
+
+        <img
+          class="intro-pattern-right-mobile"
+          src="./images/bg-pattern-intro-right-mobile.svg"
+          alt="IntroIMGRight"
+        />
+
+        <svg class="intro-svg-upper" height="210" width="500">
+          <line
+            x1="0"
+            y1="0"
+            x2="150"
+            y2="0"
+            style="stroke: white; stroke-width: 2;"
+          />
+        </svg>
+
         <h1 class="bar-title">Humanizing your insurance.</h1>
         <p class="bar-content">
           Get your life insurance coverage easier and faster. We blend our
@@ -63,7 +96,19 @@
           you. Ensure you and your loved ones are protected.
         </p>
         <p class="bar-button-container">
-          <button class="bar-button">View plans</button>
+          <a class="bar-link" href="/">View plans</a>
+          <!-- <button class="bar-button">View plans</button> -->
+        </p>
+        <p class="svg-lower-container">
+          <svg class="intro-svg-lower" height="100" width="150">
+            <line
+              x1="0"
+              y1="0"
+              x2="150"
+              y2="0"
+              style="stroke: #baafbc; stroke-width: 2;"
+            />
+          </svg>
         </p>
       </div>
     </div>
