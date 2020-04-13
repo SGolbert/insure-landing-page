@@ -1,0 +1,21 @@
+.intro {
+  background: var(--purple);
+  display: flex;
+}
+
+.introcontent {
+  padding: 80px 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .intro {
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-around;
+  }
+
+  .introimage {
+    /* display: none; */
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.bar-title {
+  color: white;
+  text-align: center;
+}
+
+.bar-content {
+  color: white;
+  padding: 0 20px;
+}
+
+.bar-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bar-button {
+  background: var(--purple);
+  border: 2px white solid;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 40px;
+}
