@@ -1,10 +1,6 @@
 .intro {
-  /* background: var(--purple); */
   align-items: flex-start;
-  background:
-    /* url("../images/bg-pattern-intro-left-desktop.svg") no-repeat -10% 150%,
-    url("../images/bg-pattern-intro-right-desktop.svg") no-repeat 110% 15%, */
-    linear-gradient(180deg, var(--purple) 70%, white 30%);
+  background: linear-gradient(180deg, var(--purple) 70%, white 30%);
   display: flex;
   padding: 50px;
   position: relative;
@@ -33,7 +29,6 @@
   display: flex;
   flex: 1 1 55%;
   flex-direction: column;
-  /* justify-content: space-between; */
   padding: 0px 20px 0 0;
   position: relative;
 }
@@ -45,14 +40,14 @@
 }
 
 .intro-svg-upper {
-  position: absolute;
   left: 0%;
+  position: absolute;
   top: 0%;
 }
 
 .intro-svg-lower {
-  position: absolute;
   left: 0%;
+  position: absolute;
   top: calc(100% + 50px);
 }
 
@@ -96,6 +91,11 @@
   text-decoration: none;
 }
 
+.bar-link:hover {
+  background: white;
+  color: var(--purple);
+}
+
 .intro-pattern-right-mobile,
 .intro-pattern-left-mobile {
   display: none;
@@ -134,16 +134,16 @@
 
   .intro-pattern-left-mobile {
     display: block;
+    left: 0%;
     position: absolute;
     top: 0%;
-    left: 0%;
     width: 150px;
   }
 
   .intro-pattern-right-mobile {
+    bottom: 0%;
     display: block;
     position: absolute;
-    bottom: 0%;
     right: 0%;
     width: 100px;
   }

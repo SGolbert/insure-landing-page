@@ -18,6 +18,10 @@
   display: none;
 }
 
+.HWW-link {
+  z-index: 1;
+}
+
 @media only screen and (min-width: 601px) {
   .howwework-pattern-mobile {
     display: none;
@@ -29,6 +33,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 0;
   }
 
   .howwework {
@@ -47,5 +52,6 @@
 
   .HWW-link {
     font-size: 0.8em;
+    z-index: 1;
   }
 }

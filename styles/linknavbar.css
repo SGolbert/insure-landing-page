@@ -54,6 +54,12 @@
     margin: 15px 0px 15px 15px;
   }
 
+
+
+  .linknav-socmedia>img:hover {
+    filter: brightness(50%);
+  }
+
   .linknav-logo {
     align-items: center;
     flex: 1 0 100px;

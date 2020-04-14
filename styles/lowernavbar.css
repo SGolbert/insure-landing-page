@@ -1,14 +1,14 @@
 .lowernavbar {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 100px;
 }
 
 .category {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .category>p {
@@ -43,11 +43,11 @@ p.category-header {
   .category {
     align-items: flex-start;
     flex: 1 1 25%;
-    justify-content: start;
     height: 200px;
+    justify-content: start;
   }
 
-  .category-header {
-    /* justify-self: baseline; */
+  .category>p>a:hover {
+    text-decoration: underline;
   }
 }

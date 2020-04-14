@@ -1,6 +1,6 @@
 .uppernavbar {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   padding: 20px 50px;
 }
@@ -14,9 +14,9 @@
 }
 
 .hamburglinks>p {
-  display: flex;
   align-items: center;
-  padding: 0px 10px;
+  display: flex;
+  margin: 0px 10px;
 }
 
 .upperlink {
@@ -26,14 +26,28 @@
   text-decoration: none;
 }
 
+.upperlink:hover {
+  color: #3A3943;
+}
+
 .upperlink--primary {
   border: 2px solid var(--primary-grey);
   color: var(--primary-grey);
   margin: 0 20px;
 }
 
+.upperlink--primary:hover {}
+
 .upperlink--primary>a {
   color: var(--primary-grey);
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+}
+
+.upperlink--primary>a:hover {
+  background: #2B282F;
+  color: white;
 }
 
 .mobiledeco {
