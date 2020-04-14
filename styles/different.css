@@ -37,6 +37,17 @@
 }
 
 @media only screen and (min-width: 601px) {
+
+  /* .grid-1-1,
+  .grid-1-2,
+  .grid-1-3,
+  .grid-2-1,
+  .grid-2-2,
+  .grid-2-3 {
+    justify-self: center;
+    text-align: center;
+  } */
+
   .wearedifferent {
     align-items: baseline;
     column-gap: 30px;
