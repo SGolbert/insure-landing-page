@@ -22,6 +22,10 @@
   margin: 30px 10px;
 }
 
+.linknav-socmedia>img:hover {
+  filter: brightness(50%);
+}
+
 .footer-pattern-desktop {
   display: none;
 }
@@ -52,12 +56,6 @@
 
   .linknav-socmedia {
     margin: 15px 0px 15px 15px;
-  }
-
-
-
-  .linknav-socmedia>img:hover {
-    filter: brightness(50%);
   }
 
   .linknav-logo {
