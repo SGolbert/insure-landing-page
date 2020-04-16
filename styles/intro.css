@@ -1,8 +1,5 @@
 .introcontainer {
-  /* display: flex; */
   background: linear-gradient(180deg, var(--purple) 70%, white 30%);
-  max-width: 100vw;
-  width: 100vw;
 }
 
 .intro {
@@ -143,7 +140,7 @@
     display: block;
     left: 0%;
     position: absolute;
-    top: 0%;
+    top: -0%;
     width: 150px;
   }
 
@@ -167,6 +164,10 @@
   .main-pic {
     order: -1;
     width: 100%;
+  }
+
+  .main-pic>img {
+    display: block;
   }
 
   .introimage {

@@ -32,7 +32,8 @@
 
 .footer-pattern-mobile {
   position: absolute;
-  top: 0;
+  top: 15%;
+  width: 100vw;
   z-index: -1;
 }
 
