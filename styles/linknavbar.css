@@ -50,8 +50,12 @@
     display: none;
   }
 
+  .linknavbar-container {
+    padding: 0 50px;
+  }
+
   .linknavbar {
-    margin: 0 50px;
+    margin: 0 auto;
   }
 
   .linknav-socmedia {

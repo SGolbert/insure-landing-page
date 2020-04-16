@@ -39,11 +39,13 @@ p.category-header {
   .lowernavbar {
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px 50px 50px 50px;
+    margin: 0px auto;
+    padding: 0 50px;
   }
 
   .category {
     align-items: flex-start;
+    /* align-items: center; */
     flex: 1 1 25%;
     height: 200px;
     justify-content: start;

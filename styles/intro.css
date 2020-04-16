@@ -1,6 +1,12 @@
+.introcontainer {
+  /* display: flex; */
+  background: linear-gradient(180deg, var(--purple) 70%, white 30%);
+  max-width: 100vw;
+  width: 100vw;
+}
+
 .intro {
   align-items: flex-start;
-  background: linear-gradient(180deg, var(--purple) 70%, white 30%);
   display: flex;
   padding: 50px;
   position: relative;
@@ -58,6 +64,7 @@
 }
 
 .main-pic {
+  align-self: center;
   order: 1;
   flex-basis: 45%;
   flex-grow: 1;
