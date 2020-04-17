@@ -31,8 +31,22 @@ p.category-header {
 }
 
 .attribution {
+  background: #3E54A3;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 0;
   text-align: center;
-  margin-bottom: 40px;
+}
+
+.attribution>a {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.attribution>a:hover {
+  color: #ED2C49;
 }
 
 @media only screen and (min-width: 601px) {
